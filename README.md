@@ -1,16 +1,36 @@
-# React + Vite
+# Anime Archive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A community watch board for anime fans. Browse 12 must-watch titles, search by title or genre, and filter by airing status.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Walkthrough](walkthrough.gif)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Required Features
 
-## Expanding the ESLint configuration
+- [x] The app has a cohesive, unique theme for events or resources relevant to a specific community
+  - [x] Header/title describing the theme is displayed
+- [x] At least 10 unique events or resources are displayed in a responsive card format
+  - [x] There are at least 10 cards displayed for 10 different events
+  - [x] The cards are displayed in an organized format (grid)
+  - [x] Each card includes information about the event or resource
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Stretch Features
+
+- [x] Buttons or links to related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
+
+## Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Tech Stack
+
+- React 18
+- Vite
+- Jikan API (for images)
