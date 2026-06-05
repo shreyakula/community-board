@@ -1,10 +1,12 @@
 # Anime Archive
 
-A community watch board for anime fans. Browse 12 must-watch titles, search by title or genre, and filter by airing status.
+## Description
+
+Anime Archive is a community watch board for anime fans. It displays a curated collection of 12 must-watch anime titles in a magazine-style editorial layout inspired by print publications like Pitchfork and Vogue. Users can browse titles, search by name or genre, and filter by airing status. Cover art is fetched live from the Jikan API (MyAnimeList) so images are always up to date.
 
 ## Demo
 
-![Walkthrough](walkthrough.gif)
+![Walkthrough](walkthrough_small.gif)
 
 ## Features
 
@@ -22,7 +24,7 @@ A community watch board for anime fans. Browse 12 must-watch titles, search by t
 - [x] Buttons or links to related resources are on each card component
 - [x] The site is responsive for both desktop and mobile formats
 
-## Setup
+## How to Run
 
 ```bash
 npm install
@@ -33,4 +35,5 @@ npm run dev
 
 - React 18
 - Vite
-- Jikan API (for images)
+- Jikan API (MyAnimeList) for live cover images
+- Google Fonts — Playfair Display + Barlow
